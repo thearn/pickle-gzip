@@ -1,8 +1,15 @@
-
 # IDE #
 #######
 *.wpr
 *.wpu
+
+*.dat
+
+# Directories #
+###############
+build/
+dist/
+*.egg-info
 
 # Compiled source #
 ###################
@@ -12,6 +19,7 @@
 *.exe
 *.o
 *.so
+*.pyc
 
 # Packages #
 ############
@@ -25,6 +33,7 @@
 *.rar
 *.tar
 *.zip
+*.egg
 
 # Logs and databases #
 ######################
@@ -35,7 +44,6 @@
 # OS generated files #
 ######################
 .DS_Store
-.DS_Store?
 ._*
 .Spotlight-V100
 .Trashes
